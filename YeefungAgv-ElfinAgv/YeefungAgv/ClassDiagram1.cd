@@ -1,0 +1,2195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CAboutDlg" Collapsed="true">
+    <Position X="56.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAhBAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>IDE\YeefungAgvDlg.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agv" Collapsed="true">
+    <Position X="7.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CKgBAoEAIAEIIQAgIGAIIBGABEFmIACAQEACRAAQAAo=</HashCode>
+      <FileName>AGV\Agv\Agv.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AgvInfo" Collapsed="true">
+    <Position X="47.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wKISFAAAABZQaAAChgcABgEGCRCRkxC9LBACAQAAAqA=</HashCode>
+      <FileName>AGV\Agv\AgvInfo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CANPort" Collapsed="true">
+    <Position X="47.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIAAAAAAAYAAAAAAAAAgAAAAAAAAAAIAAABIAJAAAAA=</HashCode>
+      <FileName>AGV\Communication\CanPort.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSerialPort" Collapsed="true">
+    <Position X="47.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgICAAAALYRIEQQQCAAwAABBAEAAAwgAAAAIABiIIgE=</HashCode>
+      <FileName>AGV\Communication\SerialPort.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControllerManager" Collapsed="true">
+    <Position X="12.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgACEAAAAAAEgQIAAAAkAgAAQAAEiAAAAAATBwAgBIA=</HashCode>
+      <FileName>AGV\Controller\ControllerManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Navigator" Collapsed="true">
+    <Position X="60" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAQKIHgJEQYAAAAQkAQAABgAECBAAqCAKAIAggEA=</HashCode>
+      <FileName>AGV\Controller\Navigator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMoveBase" Collapsed="true">
+    <Position X="7.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ANEAFCwgwLaIQIgkBEQQAKcCSjAJNIKCEBACbleAQUA=</HashCode>
+      <FileName>AGV\Controller\MoveBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DebugVehicle" Collapsed="true">
+    <Position X="1" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAIAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\Controller\MoveDebugLine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InsertSystem" Collapsed="true">
+    <Position X="3.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAIAAAAAAAAAAAAAAAACAAABAAAAAQAAQAAA=</HashCode>
+      <FileName>AGV\Controller\MoveInsert.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMoveLine" Collapsed="true">
+    <Position X="5.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>AGV\Controller\MoveLine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMoveX2Y2" Collapsed="true">
+    <Position X="7.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAEAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\Controller\MoveX2Y2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMoveX4Y4" Collapsed="true">
+    <Position X="12.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAIAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\Controller\MoveX4Y4.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Battery" Collapsed="true">
+    <Position X="54.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAJACCAAAQCAAAAAAAAAAAABgAAEAAAAAACAQAAACA=</HashCode>
+      <FileName>AGV\Devices\Battery.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DevicesManager" Collapsed="true">
+    <Position X="60" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAZggGQABQIBcGAAABQQBCYAAGWAgYxEkAKAQAiQDE=</HashCode>
+      <FileName>AGV\Devices\DevicesManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DriverManager" Collapsed="true">
+    <Position X="49.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IwEwISgAABYgAYAAQEALRRgJABAEAgACCYBQEAQgQhA=</HashCode>
+      <FileName>AGV\Devices\DriverManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gyro" Collapsed="true">
+    <Position X="53" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QCAAAAAAAhBAEUAAAAAAAAAAAACAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>AGV\Devices\Gyro\Gyro.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObstacleAvoidance" Collapsed="true">
+    <Position X="61.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABEAAAAgAEBUEAEAgAAQAUgAAEFAAQAAAKAAADAQA=</HashCode>
+      <FileName>AGV\Devices\ObstacleAvoidance.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpDevice" Collapsed="true">
+    <Position X="63.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAECgBAKoCEAAAAAoAwAQCBEAAQARgAACAEQoQAM=</HashCode>
+      <FileName>AGV\Devices\OpDevice.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OperationKnob" Collapsed="true">
+    <Position X="47.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAACAgAAAAAAEAAQAAQACAEAAAAgIAACgAACAAA=</HashCode>
+      <FileName>AGV\Devices\OperationKnob.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PGV" Collapsed="true">
+    <Position X="51.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AERAgAAAQgAAQYABAAAAgAgAAAAAIAACBAAEAABQAAA=</HashCode>
+      <FileName>AGV\Devices\PGV.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PhotronicCell" Collapsed="true">
+    <Position X="53" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAIAAAAAAQgAAAQAAAAAAAAAAAAACAAIA=</HashCode>
+      <FileName>AGV\Devices\PhotronicCell.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScramButton" Collapsed="true">
+    <Position X="56.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQIBAIAgAAQAAYAAAgAAAAAEAAAEBAAAAAAAAAAAAsA=</HashCode>
+      <FileName>AGV\Devices\ScramButton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServoAlarm" Collapsed="true">
+    <Position X="58.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoABAIAAAAAAAKAAAAAAAAAEAAAABAAAAAAAAAAAAIA=</HashCode>
+      <FileName>AGV\Devices\ServoAlarm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DriveEncoder" Collapsed="true">
+    <Position X="63.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAABoAAEAAAAEoAAAAAAHAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\Devices\Wheel\DriveEncoder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Wheel" Collapsed="true">
+    <Position X="63.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAACAAABAAABQQAAAAAAoQAAAQAAAAQAE=</HashCode>
+      <FileName>AGV\Devices\Wheel\Wheel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WheelControl" Collapsed="true">
+    <Position X="47.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAARAIBwEAAgAAABAIQAECAgQCAAAAQAQKUgE=</HashCode>
+      <FileName>AGV\Devices\Wheel\WheelControl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PIDBase" Collapsed="true">
+    <Position X="18.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAABQAAAAAAAAAAACAAAAAAAAACAAAACAA=</HashCode>
+      <FileName>AGV\Devices\Wheel\PID\PIDBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpinPID" Collapsed="true">
+    <Position X="18.5" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAABAAAAACAAAACASIAAAAAAAgAEAAAAAg=</HashCode>
+      <FileName>AGV\Devices\Wheel\PID\SpinPID.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CorneringLamp" Collapsed="true">
+    <Position X="7.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAgAAAABAFAAAAAAAAAAAAgAAAAAAAAAAABAAA=</HashCode>
+      <FileName>AGV\Devices\PilotLamp\CorneringLamp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PilotLamp" Collapsed="true">
+    <Position X="8.75" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABEIAAAAAAAIAAAEAAAAAEAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>AGV\Devices\PilotLamp\PilotLamp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PowerLight" Collapsed="true">
+    <Position X="9.75" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>AGV\Devices\PilotLamp\PowerLight.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnalogIO" Collapsed="true">
+    <Position X="49.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIBAAAgBAEAAAEAAAAAAAAAABAAAABAABAAA=</HashCode>
+      <FileName>AGV\Driver\AnalogIO.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DigitalIO" Collapsed="true">
+    <Position X="61.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAEAAAAAABAAAgAEgAACQAAAABAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\Driver\DigitalIO.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Driver" Collapsed="true">
+    <Position X="47.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CwhQQYkAABBhAUAAEAGIQhEOxACAgBACRYAYMCAAKBA=</HashCode>
+      <FileName>AGV\Driver\Driver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HighSpeedCounter" Collapsed="true">
+    <Position X="54.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAgAABAAAAAAAAAAEAAAAAAAAAAAAAAYAAAAAAA=</HashCode>
+      <FileName>AGV\Driver\HighSpeedCounter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IODriver" Collapsed="true">
+    <Position X="61.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FAoEIAQAAABlgYAgFCEpBgEQxACRBAAQAADTMAAAAwA=</HashCode>
+      <FileName>AGV\Driver\IODriver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAgvMutex" Collapsed="true">
+    <Position X="61.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\Global\CAgvMutex.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBaseObject" Collapsed="true">
+    <Position X="19" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAABAAAAAQAAAAAAAAAAAAEQAAAAIAAAA=</HashCode>
+      <FileName>AGV\Global\CBaseObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCRC16" Collapsed="true">
+    <Position X="63.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAQAAAAAAABAAQIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\Communication\CRC16.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CThread&lt;T&gt;" Collapsed="true">
+    <Position X="54.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAIACgoAARAACAAAAAAAAIAASAIJAAADApAAgA=</HashCode>
+      <FileName>AGV\Global\CThread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTimer&lt;T&gt;" Collapsed="true">
+    <Position X="56.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAMAAAAICCAIAARAAAIKCggAAAIAIQBAoAAAAAAAAgI=</HashCode>
+      <FileName>AGV\Global\CTimer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDataFile" Collapsed="true">
+    <Position X="51.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACBAAAAAAAAAIAAIAAAAAAAAAACAAAAACQIAAACAAAA=</HashCode>
+      <FileName>AGV\Global\DataFile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseEvent" Collapsed="true">
+    <Position X="24.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAACAAAQACAEAAAAAAAAAAACgAAECAAAAAAAAA=</HashCode>
+      <FileName>AGV\MessageBus\Event\BaseEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EventFetch" Collapsed="true">
+    <Position X="25.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAgAAEAQACAAAAAA=</HashCode>
+      <FileName>AGV\MessageBus\Event\OperationEvent\EventFetch.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EventQueue" Collapsed="true">
+    <Position X="5.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gCFAAAEIAkCgAABAIIAACIgUAQQAAgAAGAAACihAIAA=</HashCode>
+      <FileName>AGV\MessageBus\EventQueue.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MessageBus" Collapsed="true">
+    <Position X="54.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAgAAAAAAGAAAAAABABCQAAASAAAAAAAABA=</HashCode>
+      <FileName>AGV\MessageBus\MessageBus.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MessageMap" Collapsed="true">
+    <Position X="58.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAQAAAAAAQAAQAAAAAAAA=</HashCode>
+      <FileName>AGV\MessageBus\MessageMap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoveFinished" Collapsed="true">
+    <Position X="16.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAmAIEAAAAAAAQAA=</HashCode>
+      <FileName>AGV\MessageBus\Event\SegmentsEvent\MoveFinished.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpCodeFinished" Collapsed="true">
+    <Position X="19" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAABAAAAAAAAQAAAgAAAAAAAAAIAiAIEAAEAEAAAAA=</HashCode>
+      <FileName>AGV\MessageBus\Event\OperationEvent\OpCodeFinished.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpCtrlEvent" Collapsed="true">
+    <Position X="21.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAgCAEAAAAAAAAAw=</HashCode>
+      <FileName>AGV\MessageBus\Event\OperationEvent\OpCtrlEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OperationEvent" Collapsed="true">
+    <Position X="22.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAKAAAAAAAAAAAAAAAAAAAAAAAAAAgAAGAAAAAAAAAA=</HashCode>
+      <FileName>AGV\MessageBus\Event\OperationEvent\OperationEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SegmentsEvent" Collapsed="true">
+    <Position X="28" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAgAAAAAAAAAAAAAAAAAAgAAEAAAAAAAEAA=</HashCode>
+      <FileName>AGV\MessageBus\Event\SegmentsEvent\SegmentsEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSubscriber" Collapsed="true">
+    <Position X="11" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAKAAAAAAAEAAAACAAAAAAAAAAAgAQMAAAAAAAgAA=</HashCode>
+      <FileName>AGV\MessageBus\CSubscriber.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SwitchModeEvent" Collapsed="true">
+    <Position X="23.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAIAAgAAEAAAAQAAAAA=</HashCode>
+      <FileName>AGV\MessageBus\Event\OperationEvent\SwitchModeEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskEvent" Collapsed="true">
+    <Position X="30.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQABAAAAAAAIAAAAAQAACAEAAAAAgAIEAAIAAAAQAA=</HashCode>
+      <FileName>AGV\MessageBus\Event\TaskEvent\TaskEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskFinished" Collapsed="true">
+    <Position X="32.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAQAAAAAAQAAAAACAAAAAAAIAiAIVAAAAAAAAAA=</HashCode>
+      <FileName>AGV\MessageBus\Event\TaskEvent\TaskFinished.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="State" Collapsed="true">
+    <Position X="51.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAgAAAAAAAAAAAAAAAAAAAAEAAAAAAAABAgAAAA=</HashCode>
+      <FileName>AGV\ModeManager\Hsm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hsm" Collapsed="true">
+    <Position X="15.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAgCBkEAAAAgAAAAkAAABAAAAAAQAAAA=</HashCode>
+      <FileName>AGV\ModeManager\Hsm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModeSelector" Collapsed="true">
+    <Position X="15.5" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIABYAAAIAAAEQIAgAAAAgCBACCMAAQgOAEDAACAEFA=</HashCode>
+      <FileName>AGV\ModeManager\ModeSelector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mode" Collapsed="true">
+    <Position X="10" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQAAAAAAIIAAIAAAAAAAAAQAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>AGV\ModeManager\Mode\Mode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmergencyController" Collapsed="true">
+    <Position X="51.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIACAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\ModeManager\Mode\EmergencyMode\EmergencyController.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmergencyMode" Collapsed="true">
+    <Position X="10" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAQEAABAAAACAAAAAAAAAAAAAIAAAACA=</HashCode>
+      <FileName>AGV\ModeManager\Mode\EmergencyMode\EmergencyMode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HostController" Collapsed="true">
+    <Position X="56.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABACAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\ModeManager\Mode\HostMode\HostController.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HostMode" Collapsed="true">
+    <Position X="10" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAQAABAAAQIAAEABAIADAACEAAAAMAgABAAQAAA=</HashCode>
+      <FileName>AGV\ModeManager\Mode\HostMode\HostMode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LocalController" Collapsed="true">
+    <Position X="51.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>AGV\ModeManager\Mode\LocalMode\LocalController.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LocalMode" Collapsed="true">
+    <Position X="7" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAhAAAQIAAEAAAAACCECEAAAAMgwAAAiAAAQ=</HashCode>
+      <FileName>AGV\ModeManager\Mode\LocalMode\LocalMode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDijkstraSearch" Collapsed="true">
+    <Position X="17.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAABAAAAAAAAAAAAAAABAAAAAAAAAEAAgAAA=</HashCode>
+      <FileName>AGV\ModeManager\Mode\LocalMode\Graph\DijkstraSearch.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGraphRoute" Collapsed="true">
+    <Position X="63.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABSCgEgAACACRQACEAAAESAAJgAAAABEhABAAAACAg=</HashCode>
+      <FileName>AGV\ModeManager\Mode\LocalMode\Graph\GraphRoute.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Compare" Collapsed="true">
+    <Position X="60" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\ModeManager\Mode\LocalMode\Graph\IPathSearch.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IPathSearch" Collapsed="true">
+    <Position X="18.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAgAAAAAAAAAAgAAA=</HashCode>
+      <FileName>AGV\ModeManager\Mode\LocalMode\Graph\IPathSearch.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAdjacentSegment" Collapsed="true">
+    <Position X="58.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAABAAAAgAAAAAAAAAgA=</HashCode>
+      <FileName>AGV\ModeManager\Mode\LocalMode\Graph\Vertex.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CVertex" Collapsed="true">
+    <Position X="58.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CABMAIAiCGAABAABIAKDgABIgAgAyCAgmBBhgBACAiA=</HashCode>
+      <FileName>AGV\ModeManager\Mode\LocalMode\Graph\Vertex.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManualController" Collapsed="true">
+    <Position X="53" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQACAQAAAAAABQADAAAAAAAAAICEAAAAIAACAAAAAAA=</HashCode>
+      <FileName>AGV\ModeManager\Mode\ManualMode\ManualController.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManualMode" Collapsed="true">
+    <Position X="13" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hAABAAAAABAAAwEEAVAAAASCAFCEAAAAMgACBgAAACA=</HashCode>
+      <FileName>AGV\ModeManager\Mode\ManualMode\ManualMode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CeIniFile" Collapsed="true">
+    <Position X="12.5" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAgADABAAQQAREACAAQiAgAAQAAACACAABAAA=</HashCode>
+      <FileName>AGV\ParameterConfig\CeIniFile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDataSystemSetting" Collapsed="true">
+    <Position X="56.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACJAAAAAAAAAEAAMAACAAAAAAAACAAAAAIAAAABEAAA=</HashCode>
+      <FileName>AGV\ParameterConfig\ConfigData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDataGeneralSetting" Collapsed="true">
+    <Position X="53" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAQBAAAAAAAAAAAgAAAAAABAAAACAAA=</HashCode>
+      <FileName>AGV\ParameterConfig\ConfigData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDataPhysicalSetting" Collapsed="true">
+    <Position X="54.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IhAAAAAAAAAAAAAAQAAAAEQAABABAAAAAAAAwYABAEA=</HashCode>
+      <FileName>AGV\ParameterConfig\ConfigData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDataDriveSetting" Collapsed="true">
+    <Position X="49.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAGIEAAAAAAAEAAAAAAAAAAACAAAAAAAAAAEAAAAAE=</HashCode>
+      <FileName>AGV\ParameterConfig\ConfigData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDataAdjustSetting" Collapsed="true">
+    <Position X="47.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IRBAAAAMAACBAQAAAQQAgAIBAIAAAAAAAABAABEAAoA=</HashCode>
+      <FileName>AGV\ParameterConfig\ConfigData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IIniFile" Collapsed="true">
+    <Position X="12.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAADABAAQQAREACAAAgAgABQAAACACAACAAA=</HashCode>
+      <FileName>AGV\ParameterConfig\IIniFile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ini" Collapsed="true">
+    <Position X="60" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAADABAAQQAREACIABiAgAAQAAACACAAAACA=</HashCode>
+      <FileName>AGV\ParameterConfig\Ini.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ParameterConfigManager" Collapsed="true">
+    <Position X="49.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAIIiAAABIAAAgAAKAAEAgIAYACAQIgABQGAAMAQA=</HashCode>
+      <FileName>AGV\ParameterConfig\ParameterConfigManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLayoutManager" Collapsed="true">
+    <Position X="0.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAgJRAAABIAQAAgAAACRARAGAIAAEAEACAhIQRgKABA=</HashCode>
+      <FileName>AGV\RouteManager\LayoutManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Task" Collapsed="true">
+    <Position X="53" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAACAQ=</HashCode>
+      <FileName>AGV\TaskManager\TaskInfo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskManager" Collapsed="true">
+    <Position X="14.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgDIAGBAAABEhQhhAAAAIAAAAACEAIAAIgRABACAAhA=</HashCode>
+      <FileName>AGV\TaskManager\TaskManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBmpButton" Collapsed="true">
+    <Position X="53" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACBEAQAIQACAghGAsBAAADEAAAEYSRAEAEAAAAUAAA=</HashCode>
+      <FileName>Interface\BaseControl\BmpButton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CColorCombo" Collapsed="true">
+    <Position X="56.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAEAAIACEBAggCBgDCgACAAAMAAAQAEAIAAAAAAAA=</HashCode>
+      <FileName>Interface\BaseControl\ColorCombo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CColorEdit" Collapsed="true">
+    <Position X="58.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAIAAAACAAAAgAAgBAAACAAAAAAAAAEAIAAAAAAAA=</HashCode>
+      <FileName>Interface\BaseControl\ColorEdit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CColorStatic" Collapsed="true">
+    <Position X="60" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACBEIAQIoAAAgACAtBAAICCEAgwACAAkAAAAAAAAAA=</HashCode>
+      <FileName>Interface\BaseControl\ColorStatic.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CColorText_Static" Collapsed="true">
+    <Position X="61.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACBEAAAMYAAAgACApBQAYCCEAgQACAAkAAAAAAAAAA=</HashCode>
+      <FileName>Interface\BaseControl\ColorText_Static.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFxButton" Collapsed="true">
+    <Position X="61.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAGAQAABgBQAAgAmRAAALMAgABABAAEACAAIIQAAI=</HashCode>
+      <FileName>Interface\BaseControl\FxButton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHeaderCtrlCl" Collapsed="true">
+    <Position X="47.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAAAAAAAAAABEkBAAAAAQAAIAIAAMAIAAAgAAAA=</HashCode>
+      <FileName>Interface\BaseControl\HeaderCtrlCl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CListCtrlEdit" Collapsed="true">
+    <Position X="56.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABQAACAAAAgAAgBAggGAAAQAQAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Interface\BaseControl\ListCtrlCl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CListCtrlComboBox" Collapsed="true">
+    <Position X="54.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAQAAAAAAAgAAgBAgAEAAAQAQAAAAAIAAAgAAAA=</HashCode>
+      <FileName>Interface\BaseControl\ListCtrlCl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CELL_ITEM" Collapsed="true">
+    <Position X="60" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAgAAAEAAAQEAAAIAAAAAAAACAAAAAAg=</HashCode>
+      <FileName>Interface\BaseControl\ListCtrlCl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CListCtrlCl" Collapsed="true">
+    <Position X="53" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASKAlFBCAgagCRkFwm5ICAAcBKIoAOCgcFGQCIAaStI=</HashCode>
+      <FileName>Interface\BaseControl\ListCtrlCl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAiAoPage" Collapsed="true">
+    <Position X="13.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kAAAIAEAAAAAAAAABpBAAgAABAAAAAEEEAABAGSAAAA=</HashCode>
+      <FileName>Interface\SubPage\AiAoPage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAlarmLogPage" Collapsed="true">
+    <Position X="17.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABIAEAAQAABAAAAhFAAAAABAAAAAEEEIAAAAQAAAA=</HashCode>
+      <FileName>Interface\SubPage\AlarmLogPage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAutoModePage" Collapsed="true">
+    <Position X="22.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAICEAAAAAAAhAAhDABABABAAAAAEEEAAAAAQAAAA=</HashCode>
+      <FileName>Interface\SubPage\AutoModePage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDebugPage" Collapsed="true">
+    <Position X="24.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIYAEAAAQAAAgAAhBAOAAABAADACAEECABAAcAAAA=</HashCode>
+      <FileName>Interface\SubPage\DebugPage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDebugParamPage" Collapsed="true">
+    <Position X="26.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EABAIAEEAgCAAAgABhRAAAAEBAAAAAEEEAABAIQAAAA=</HashCode>
+      <FileName>Interface\SubPage\DebugParamPage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDiDoPage" Collapsed="true">
+    <Position X="29" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAEAAAAABAgABpBAAAAABAAAAgEEEABBACQAAQA=</HashCode>
+      <FileName>Interface\SubPage\DiDoPage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDriveParamPage" Collapsed="true">
+    <Position X="31.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UABAIAEAAAAEACgIAhBAAAAEBAAAAAEEEQABAIQAAAA=</HashCode>
+      <FileName>Interface\SubPage\DriveParamPage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CEventLogPage" Collapsed="true">
+    <Position X="33.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAIAEAAAAQAAABAhBAAAAABAAAAAEMUAAAAAQAAAA=</HashCode>
+      <FileName>Interface\SubPage\EventLogPage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CInsertPage" Collapsed="true">
+    <Position X="35.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AADCIQEIgAAAAAoSAhFAhAAAJAAAAAUEEAAAAgQAAAA=</HashCode>
+      <FileName>Interface\SubPage\InsertPage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLocalModePage" Collapsed="true">
+    <Position X="2" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAIICEAAAAQAAoAArhAAEAABoMDACAEEAAUIAQACAg=</HashCode>
+      <FileName>Interface\SubPage\LocalModePage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CManualModePage" Collapsed="true">
+    <Position X="4.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAJME4YAEQBCghBpBAUAAABAgICAAEEASAAAUAIAg=</HashCode>
+      <FileName>Interface\SubPage\ManualModePage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CModeSwitchPage" Collapsed="true">
+    <Position X="6.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACEIAEAgAAAAAoAAhFARAEABAAAAAEEkIAAAAAAAAA=</HashCode>
+      <FileName>Interface\SubPage\ModeSwitchPage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMonitorPage" Collapsed="true">
+    <Position X="8.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EM5tIBEgACECAAiJLrBAgtFBTEsFAIEMEISAIRSFQUw=</HashCode>
+      <FileName>Interface\SubPage\MonitorPage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSubPage" Collapsed="true">
+    <Position X="19" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAEEIAIAIAIAAAkEApBEAEAIDIIACAEEFBQHCiQAAAI=</HashCode>
+      <FileName>Interface\SubPage\SubPage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSubPageManager" Collapsed="true">
+    <Position X="51.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAIAAAAAACAAAAAAAAAAAAAAKIAAAAAIABAAACAAAk=</HashCode>
+      <FileName>Interface\SubPage\SubPageManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSysInfoPage" Collapsed="true">
+    <Position X="11" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAKQEAAAAAgAAkAhBAAAAARIAAAAEEEAQAAAQACAA=</HashCode>
+      <FileName>Interface\SubPage\SysInfoPage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSysParamPage" Collapsed="true">
+    <Position X="15.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EABAIAEAAAAAAAgABhBAAAQEBAAAAAEEEAABAIQAAyA=</HashCode>
+      <FileName>Interface\SubPage\SysParamPage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUsbFilePage" Collapsed="true">
+    <Position X="20" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAICMgAAAABggAAhBAAAAEBAAAACEEEAADAAQAIAA=</HashCode>
+      <FileName>Interface\SubPage\UsbFilePage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAStarSearch" Collapsed="true">
+    <Position X="19.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAABAAEBAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>AGV\ModeManager\Mode\LocalMode\Graph\AStarSearch.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IASerialEventHandler" Collapsed="true">
+    <Position X="4.75" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAQAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\Communication\Serial\AsyncSerialImpl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAsyncSerialImpl&lt;T, tBufferSize&gt;" Collapsed="true">
+    <Position X="49.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAIAAAAAAAAAAgAiABAQQIABAEAAGAAAI=</HashCode>
+      <FileName>AGV\Communication\Serial\AsyncSerialImpl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SocketIOBuffer" Collapsed="true">
+    <Position X="47.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAABAAAAAAFCQgAAQACMgCAEAEAAAAAUEAAAiI=</HashCode>
+      <FileName>AGV\Communication\Socket\AsyncSocketServerImpl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IASocketServerHandler" Collapsed="true">
+    <Position X="58.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAABAAAAACAAABEAAACAQAAABEAAAAAgAAAAAA=</HashCode>
+      <FileName>AGV\Communication\Socket\AsyncSocketServerImpl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASocketServerImpl&lt;T, tBufferSize&gt;" Collapsed="true">
+    <Position X="51.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAAQIAgIEEAAAIAgQAAJABAgADAAAAIQgDAMQAGBCAI=</HashCode>
+      <FileName>AGV\Communication\Socket\AsyncSocketServerImpl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CommManager" Collapsed="true">
+    <Position X="7" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAEAMAyCQZQQFEIFBAQAAASBAAACFAEAgAkAEMEAA=</HashCode>
+      <FileName>AGV\Communication\CommManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThreadSection" Collapsed="true">
+    <Position X="58.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAQAAAAAAAAABAAAAAAAQAAAAAAAAAAAAACAAgABAA=</HashCode>
+      <FileName>AGV\Communication\Socket\CritSection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoThreadSection" Collapsed="true">
+    <Position X="53" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAQAAAAIAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\Communication\Socket\CritSection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ITransportLayer" Collapsed="true">
+    <Position X="1.75" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAACAAAAAAAAAAAAAAAAAAIAAAAAEAAAA=</HashCode>
+      <FileName>AGV\Communication\ITransportLayer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MessageCRC" Collapsed="true">
+    <Position X="56.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACABAAAAAEAgAAAAAAAABAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>AGV\Communication\MessageCRC.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMoveSineS" Collapsed="true">
+    <Position X="10" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\Controller\MoveSineS.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMoveUCurve" Collapsed="true">
+    <Position X="14.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAQAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\Controller\MoveUCurve.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSerialHandle" Collapsed="true">
+    <Position X="63.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IABCQCAQAAAAoQCACAAEAAAqAAAAAgAAAAASAAHAAgE=</HashCode>
+      <FileName>AGV\Communication\Serial\SerialHandle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SNGenerator" Collapsed="true">
+    <Position X="61.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAIAIAAAQBAAAAAAAAAEAABABA=</HashCode>
+      <FileName>AGV\Global\SerialNumberGenerator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SerialTransportLayer" Collapsed="true">
+    <Position X="1.75" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAIQAIEKAgAQAIAgAAAAAACBQAAAAAMgMAAAEABAA=</HashCode>
+      <FileName>AGV\Communication\SerialTransportLayer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ISocketClientHandler" Collapsed="true">
+    <Position X="4.75" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAABAAAAAAQAAABAAAAAAgAAAAAA=</HashCode>
+      <FileName>AGV\Communication\Socket\SocketClientImpl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SocketClientImpl&lt;T, tBufferSize&gt;" Collapsed="true">
+    <Position X="63.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KAAAAAAAEEAAAAAAAAABAAAgACAAAAAAgCAEQAGAAEI=</HashCode>
+      <FileName>AGV\Communication\Socket\SocketClientImpl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSocketHandle" Collapsed="true">
+    <Position X="49.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAAQCAGAAAFApAIAgAAwA4BqARQYCAAEAQAAGAEAA=</HashCode>
+      <FileName>AGV\Communication\Socket\SOCKETHANDLE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ISocketServerHandler" Collapsed="true">
+    <Position X="63.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAABAAAAACAAABEAAACAQAAABEAAAAAgAAAAAA=</HashCode>
+      <FileName>AGV\Communication\Socket\SocketServerImpl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SocketServerImpl&lt;T, tBufferSize&gt;" Collapsed="true">
+    <Position X="49.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oABQIAAIEEAAAAAgQAABABAgADAAAAIQgCAEQIGBCAI=</HashCode>
+      <FileName>AGV\Communication\Socket\SocketServerImpl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TcpTransportLayer" Collapsed="true">
+    <Position X="1.75" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABABAAAIEKAAAGAIAEAAABAACRQAABABMAIAAAEABAA=</HashCode>
+      <FileName>AGV\Communication\TcpTransportLayer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThreadPool" Collapsed="true">
+    <Position X="56.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAACAIAAAAAAAAAAAAAAAACAAAABAAAAAAA=</HashCode>
+      <FileName>AGV\Communication\Socket\ThreadPool.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CYeefungAgvDlg" Collapsed="true">
+    <Position X="51.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAEEIAlGcUjIApBEAAUAAEEEAUUCAAAAAAAQIAM=</HashCode>
+      <FileName>IDE\YeefungAgvDlg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CYeefungAgvApp" Collapsed="true">
+    <Position X="49.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgBAAAAAAAAAAAQAAAAAAAAACAQ=</HashCode>
+      <FileName>IDE\YeefungAgv.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="layout::CAgvActiveStation" Collapsed="true">
+    <Position X="38.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABUAAAAAAABAAgAAAAAAAAAgEAhAEIAAA=</HashCode>
+      <FileName>AGV\RouteManager\include\agv_object\AgvActiveStation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="layout::CAgvActiveStnTemplate" Collapsed="true">
+    <Position X="45.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAgAAAAAAAAAQAABAEIAAA=</HashCode>
+      <FileName>AGV\RouteManager\include\agv_object\AgvActiveStnTemplate.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="layout::CAgvCluster" Collapsed="true">
+    <Position X="29.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAgAAAgAAABUSAYBCAABCAwABACAGAQUSBIAAEAAAA=</HashCode>
+      <FileName>AGV\RouteManager\include\agv_object\AgvCluster.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="layout::CDrawVehicle" Collapsed="true">
+    <Position X="58.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAIAAAAAAAAAIEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\RouteManager\include\AgvDrawParam.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="layout::CAgvDrawParam" Collapsed="true">
+    <Position X="60" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAQEAQAEAAEAAAAQIAAAAAAAABBACAAAABBAAgAgA=</HashCode>
+      <FileName>AGV\RouteManager\include\AgvDrawParam.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="layout::CAgvGroupStation" Collapsed="true">
+    <Position X="34" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABUAAAAAAABAAgAAAAAAAQAAAAwAEIAAA=</HashCode>
+      <FileName>AGV\RouteManager\include\agv_object\AgvGroupStation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="layout::CAgvGroupStnTemplate" Collapsed="true">
+    <Position X="40.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAQAAAAAQEIAEA=</HashCode>
+      <FileName>AGV\RouteManager\include\agv_object\AgvGroupStnTemplate.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="layout::CAgvHomeStation" Collapsed="true">
+    <Position X="36.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABUAAAAAAABEAgAAAAAAAgAAAAAAEAAAA=</HashCode>
+      <FileName>AGV\RouteManager\include\agv_object\AgvHomeStation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="layout::CAgvHomeStnTemplate" Collapsed="true">
+    <Position X="43" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgABAAAAAAAACAAAEAAAA=</HashCode>
+      <FileName>AGV\RouteManager\include\agv_object\AgvHomeStnTemplate.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="layout::CAgvLineSegment" Collapsed="true">
+    <Position X="20.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAEBQCAAAAAAAAAAAAAAEAAAAAAcAAEAABA=</HashCode>
+      <FileName>AGV\RouteManager\include\agv_object\AgvLineSegment.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="layout::CAgvNavigationArea" Collapsed="true">
+    <Position X="7" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>AGV\RouteManager\include\agv_object\AgvNavigationArea.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="layout::COpCode" Collapsed="true">
+    <Position X="61.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAgCAAIAAAAAAAAAAAQAgIABgAAAAAAAAAAEAAgA=</HashCode>
+      <FileName>AGV\RouteManager\include\agv_object\AgvObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="layout::CAgvObject" Collapsed="true">
+    <Position X="24" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgJAAACAAAIUgQBAAQQhASgAAAAAAGQEAgCYQEEBBA=</HashCode>
+      <FileName>AGV\RouteManager\include\agv_object\AgvObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="layout::CAgvPoint" Collapsed="true">
+    <Position X="9.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QECUIjACAKghWQIAEAAhBAAiwBIwQgAIhQhQgAmAJIA=</HashCode>
+      <FileName>AGV\RouteManager\include\agv_object\AgvPoint.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="layout::CAgvPointTemplate" Collapsed="true">
+    <Position X="11.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAEISACAAAAAAAAAAAAAAAggAAAAAAAAQAAQAEABAA=</HashCode>
+      <FileName>AGV\RouteManager\include\agv_object\AgvPointTemplate.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="layout::CAgvQRCode" Collapsed="true">
+    <Position X="13.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAEEACAAACABUAAAAAAABAAgAAAAAwAAAAAAgAEAAAA=</HashCode>
+      <FileName>AGV\RouteManager\include\agv_object\AgvQRCode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="layout::CAgvSegment" Collapsed="true">
+    <Position X="21.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gnY0IHpWWJGJUKwQDQihNB4vBJMT2GFPDbTeuE0JsDI=</HashCode>
+      <FileName>AGV\RouteManager\include\agv_object\AgvSegment.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="layout::CAgvSegmentTemplate" Collapsed="true">
+    <Position X="31.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAGAAAIAAgAAAAAABAgAAECAABIBYCMQAEIBAA=</HashCode>
+      <FileName>AGV\RouteManager\include\agv_object\AgvSegmentTemplate.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="layout::CAgvSinSCurveSegment" Collapsed="true">
+    <Position X="25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAEBQAAAAAAIAAAAAAAAEAAAAAAYAAkAABA=</HashCode>
+      <FileName>AGV\RouteManager\include\agv_object\AgvSinSCurveSegment.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="layout::CAgvSpinSegment" Collapsed="true">
+    <Position X="27.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAEBQAAAAAIAAAAAAAAAEAAAAAAYIAEAABA=</HashCode>
+      <FileName>AGV\RouteManager\include\agv_object\AgvSpinSegment.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="layout::CAgvStation" Collapsed="true">
+    <Position X="36.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAACAAQgAAAgAEABAhEQAAQgAIBIAEgAkKAIA=</HashCode>
+      <FileName>AGV\RouteManager\include\agv_object\AgvStation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="layout::CAgvStationTemplate" Collapsed="true">
+    <Position X="43" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAACAAAAAAEAAAhEAAAQAAIAIIEwAEKBAA=</HashCode>
+      <FileName>AGV\RouteManager\include\agv_object\AgvStationTemplate.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="layout::CAgvSubSegment" Collapsed="true">
+    <Position X="63.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAgQBCAACAAAAAAAAEIQAAAkABABAEgAgAADAgEAAgI=</HashCode>
+      <FileName>AGV\RouteManager\include\agv_object\AgvSubSegment.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="layout::CAgvText" Collapsed="true">
+    <Position X="2.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACCBUAAIAIIAFAAgABAAAgAIAAAAgEEAIIA=</HashCode>
+      <FileName>AGV\RouteManager\include\agv_object\AgvText.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="layout::CAgvUCurveSegment" Collapsed="true">
+    <Position X="16" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEBEBQAAAAEFABAAAAAAAEAAAAAAYAAEAABQ=</HashCode>
+      <FileName>AGV\RouteManager\include\agv_object\AgvUCurveSegment.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="layout::CAgvVehicleTemplate" Collapsed="true">
+    <Position X="4.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgIDgEggAQACgCBAAAgCCiIBAAAAVABiAKQEEADAQ=</HashCode>
+      <FileName>AGV\RouteManager\include\agv_object\AgvVehicleTemplate.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="layout::CAgvX2Y2Segment" Collapsed="true">
+    <Position X="18.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABQAAAAAAQBAAAAAAAEAIAAAAYAAEAABA=</HashCode>
+      <FileName>AGV\RouteManager\include\agv_object\AgvX2Y2Segment.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="layout::CAgvX4Y4Segment" Collapsed="true">
+    <Position X="22.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEBEBQAAAAMEAAEAAAAAAUAAAAAAYAAEAABQ=</HashCode>
+      <FileName>AGV\RouteManager\include\agv_object\AgvX4Y4Segment.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="layout::BackgroundConfig" Collapsed="true">
+    <Position X="12.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAgCAAAAAEAAAACAQEAAgA=</HashCode>
+      <FileName>AGV\RouteManager\include\config\BackgroundConfig.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="layout::CBlock" Collapsed="true">
+    <Position X="51.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAQgAAAABAgAAAAAAAAAAAiA=</HashCode>
+      <FileName>AGV\RouteManager\include\common\Blocking.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="layout::CBoundBox" Collapsed="true">
+    <Position X="54.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADBAIAAAAAAQAAggAAIAAQAAAAoAAAAABAAAADCAAAA=</HashCode>
+      <FileName>AGV\RouteManager\include\common\BoundBox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="layout::ConfigData" Collapsed="true">
+    <Position X="13.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIgAAAAAAIAAAAAAAEAAAA=</HashCode>
+      <FileName>AGV\RouteManager\include\config\ConfigData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="layout::DrawInterface" Collapsed="true">
+    <Position X="1.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAQAAAAAhAAAAAAgAgACAAAAAAAAEAAAAIAAAA=</HashCode>
+      <FileName>AGV\RouteManager\internal\DrawInterface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="layout::DrawLayoutDynamic" Collapsed="true">
+    <Position X="0.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gEAJAEAEAAAAAgAAABAAAASAgAAAACgAAEABAQAAQIA=</HashCode>
+      <FileName>AGV\RouteManager\internal\DrawLayoutDynamic.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="layout::DrawLayoutStatic" Collapsed="true">
+    <Position X="2.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAIAAAEAAAAAgAAAAABAASAoAAAACggAAABAQABAIA=</HashCode>
+      <FileName>AGV\RouteManager\internal\DrawLayoutStatic.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="layout::LayoutAdapter" Collapsed="true">
+    <Position X="0.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAIQABAAAAYgCgjEAABCAgAgAAAAACAQAgIMAEEAgA=</HashCode>
+      <FileName>AGV\RouteManager\include\LayoutAdapter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="layout::LayoutConfig" Collapsed="true">
+    <Position X="14.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oACAAQgAgAAAAAAAACAAAAAgACEAAogCAGECAAEAQAA=</HashCode>
+      <FileName>AGV\RouteManager\include\config\LayoutConfig.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="layout::LayoutDocument" Collapsed="true">
+    <Position X="47.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAIAAAJAYAgiACiACBAQgAAABCDkAAAggIJVSIgA=</HashCode>
+      <FileName>AGV\RouteManager\include\LayoutDocument.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="layout::LayoutDrawList" Collapsed="true">
+    <Position X="49.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAiAAAAAAAAACAAAAAQAAAAAAAAEAACAACAAAA=</HashCode>
+      <FileName>AGV\RouteManager\include\LayoutDrawList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="layout::COBB2" Collapsed="true">
+    <Position X="58.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAEQAAAAAAAAABCAAQQIAAAAQQAAAAAAAAAEAAQQ=</HashCode>
+      <FileName>AGV\RouteManager\include\common\OBB2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="layout::CSweepRect" Collapsed="true">
+    <Position X="53" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEBCAAAAAQAAAAAAAQAgAAAAQAIQAAEIAAAAAAA=</HashCode>
+      <FileName>AGV\RouteManager\include\common\SweepRect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="layout::Vector2" Collapsed="true">
+    <Position X="61.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GgAIAEAgAIABAACAcAkAAQAAGCAIADAAAEDgAAMABiA=</HashCode>
+      <FileName>AGV\RouteManager\include\common\Vector2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="yf::SCommEvent" Collapsed="true">
+    <Position X="54.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAEAIAAAAAAAAAAAASIIAABAACAQAQAAAIBIQ=</HashCode>
+      <FileName>AGV\Global\IEventReceiver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="yf::SEvent" Collapsed="true">
+    <Position X="60" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAEAAAAAEAAAAAAAgAACAA=</HashCode>
+      <FileName>AGV\Global\IEventReceiver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="yf::IEventReceiver" Collapsed="true">
+    <Position X="5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>AGV\Global\IEventReceiver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="yf::IReferenceCounted" Collapsed="true">
+    <Position X="16" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAgIQAAAAAAAAAAIEAAAAACAgAAAAIAAAAAA=</HashCode>
+      <FileName>AGV\Global\IReferenceCounted.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="yf::core::ThreadMutex" Collapsed="true">
+    <Position X="54.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>AGV\Global\ThreadMutex.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="yf::logic::tribool" Collapsed="true">
+    <Position X="60" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAACAAAAAAAA=</HashCode>
+      <FileName>AGV\Global\tribool.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Cmd_t" Collapsed="true">
+    <Position X="21.5" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAICAAAAABAAAAAABAAAAAEAAoAAAAAA=</HashCode>
+      <FileName>AGV\Agv\Cmd.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DebugLineDriveParam" Collapsed="true">
+    <Position X="63.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAEAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\Agv\CmdType.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DebugOpParam" Collapsed="true">
+    <Position X="47.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\Agv\CmdType.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="OP_RET" Collapsed="true">
+    <Position X="49.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAJAAAA=</HashCode>
+      <FileName>AGV\Agv\OpDef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="OpControl" Collapsed="true">
+    <Position X="53" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAQAAAAAAAABAAAA=</HashCode>
+      <FileName>AGV\Agv\OpDef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_0053_1" Collapsed="true">
+    <Position X="17.5" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAQAAAAAAAAAAAAAQAAAAAgQ=</HashCode>
+      <FileName>AGV\Communication\AdvCan.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Command_par" Collapsed="true">
+    <Position X="5.5" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAGQAIAEAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\Communication\AdvCan.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CanStatusPar" Collapsed="true">
+    <Position X="13.5" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAACBIgAAAAAAAgAAAAACAFBABAIAkAAAAgAAAEAg=</HashCode>
+      <FileName>AGV\Communication\AdvCan.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SensorPoint" Collapsed="true">
+    <Position X="60" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAABgAABAAAA=</HashCode>
+      <FileName>AGV\Devices\SensorPoint.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PID_t" Collapsed="true">
+    <Position X="58.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAQAAAAAAAAAAAAAAAAAAUIEAAAAAAAQg=</HashCode>
+      <FileName>AGV\Devices\Wheel\PID\PIDBase.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CClassDesc" Collapsed="true">
+    <Position X="56.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAABAAASAAIAAAAAgEAIABAAAAAAAA=</HashCode>
+      <FileName>AGV\Global\CBaseObject.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CLASSINIT" Collapsed="true">
+    <Position X="58.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>AGV\Global\CBaseObject.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DataMtrix" Collapsed="true">
+    <Position X="61.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAQAAAAAwAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>AGV\Global\GConstants.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PID" Collapsed="true">
+    <Position X="56.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAQAAAAAAAAAAAAAAAAAAUIEAAAAAAAQg=</HashCode>
+      <FileName>AGV\Global\GConstants.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PGV_RESPONSE" Collapsed="true">
+    <Position X="54.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQAAAAACABAQAAAAAAAAAAAAIBAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>AGV\Global\GConstants.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="R2100_DATA" Collapsed="true">
+    <Position X="63.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICA=</HashCode>
+      <FileName>AGV\Global\GConstants.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Msg" Collapsed="true">
+    <Position X="9.5" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\ModeManager\Hsm.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TaskInfo" Collapsed="true">
+    <Position X="58.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAIAAAAAAAAACEIAwAAAAAAAAAAEAAAAQ=</HashCode>
+      <FileName>AGV\TaskManager\TaskInfo.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="OpCodeInfo" Collapsed="true">
+    <Position X="51.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>AGV\TaskManager\TaskInfo.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ALM_RECORD_STS" Collapsed="true">
+    <Position X="47.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAABAAAA=</HashCode>
+      <FileName>Interface\BaseControl\HmiDataDefine.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_MenuItem" Collapsed="true">
+    <Position X="22.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAgAAAAAQAAAAAAAAAAAAIAAAAAAAAAAI=</HashCode>
+      <FileName>Interface\SubPage\SubPage.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="M1_MSG" Collapsed="true">
+    <Position X="60" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCEAAAAAAAAAAAAAEAAAAAIAgAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>AGV\Communication\AgvMsgDef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="M2_MSG" Collapsed="true">
+    <Position X="61.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCEAAAAAAAAAAAAAAAAAAAIAgAAAAAAAACAAAAAAQ=</HashCode>
+      <FileName>AGV\Communication\AgvMsgDef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="M6_MSG" Collapsed="true">
+    <Position X="63.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>AGV\Communication\AgvMsgDef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="FN_MSG" Collapsed="true">
+    <Position X="51.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACEAAAAAAAAQAAAAAAAAIAIAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>AGV\Communication\AgvMsgDef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="C1_MSG" Collapsed="true">
+    <Position X="51.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACEAAAAAAAAAAAAQEAAAQAIAgAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>AGV\Communication\AgvMsgDef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="C2_MSG" Collapsed="true">
+    <Position X="53" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACEAAAAAAAAAAAAQAAAAgAIAgAAAAAAAACAEAAAAQ=</HashCode>
+      <FileName>AGV\Communication\AgvMsgDef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="C6_MSG" Collapsed="true">
+    <Position X="54.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAICEAAAAYAAAAAAAAAAAAQQIABAAAAAAEACoAACYgI=</HashCode>
+      <FileName>AGV\Communication\AgvMsgDef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="E1_MSG" Collapsed="true">
+    <Position X="49.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAYAAAAAAAAAAAAQAIABAAAAAAEACoAAAYgA=</HashCode>
+      <FileName>AGV\Communication\AgvMsgDef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Battery_MSG" Collapsed="true">
+    <Position X="49.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAICAAAAAAAAAAAAAAAAAAAQIAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>AGV\Communication\AgvMsgDef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SwitchMode_MSG" Collapsed="true">
+    <Position X="56.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAABAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\Communication\AgvMsgDef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="InsertSys_MSG" Collapsed="true">
+    <Position X="58.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAQEAAAAAIAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>AGV\Communication\AgvMsgDef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="R_MSG" Collapsed="true">
+    <Position X="61.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAACAAAAACAAAAABA=</HashCode>
+      <FileName>AGV\Communication\AgvMsgDef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Header" Collapsed="true">
+    <Position X="53" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEgAAIAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>AGV\Communication\CommunicationDefs.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Message" Collapsed="true">
+    <Position X="47.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAQAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>AGV\Communication\CommunicationDefs.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SendMsg" Collapsed="true">
+    <Position X="51.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEACA=</HashCode>
+      <FileName>AGV\Communication\CommunicationDefs.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="WaitAckMsg" Collapsed="true">
+    <Position X="61.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAQAAAAREAA=</HashCode>
+      <FileName>AGV\Communication\CommunicationDefs.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="RecvMsg" Collapsed="true">
+    <Position X="47.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAQAAAABAAA=</HashCode>
+      <FileName>AGV\Communication\CommunicationDefs.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="in_addr" Collapsed="true">
+    <Position X="54.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\Global\SerialNumberGenerator.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SockAddrIn" Collapsed="true">
+    <Position X="54.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADAAAABAAAAAgAACAwAAAQAAAgAAAAAJgkACEABAAiA=</HashCode>
+      <FileName>AGV\Communication\Socket\SOCKETHANDLE.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="layout::PointDrawParam" Collapsed="true">
+    <Position X="60" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>AGV\RouteManager\include\AgvDrawParam.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="layout::SegmentDrawParam" Collapsed="true">
+    <Position X="49.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\RouteManager\include\AgvDrawParam.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="layout::ClusterDrawParam" Collapsed="true">
+    <Position X="60" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\RouteManager\include\AgvDrawParam.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="yf::SLogEvent" Collapsed="true">
+    <Position X="53" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAACAAAAAA=</HashCode>
+      <FileName>AGV\Global\IEventReceiver.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="yf::logic::detail::indeterminate_t" Collapsed="true">
+    <Position X="56.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\Global\tribool.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="Cmd" Collapsed="true">
+    <Position X="21.5" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\Agv\Cmd.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="canmsg_t" Collapsed="true">
+    <Position X="17.5" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\Communication\AdvCan.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Command_par_t" Collapsed="true">
+    <Position X="2.5" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\Communication\AdvCan.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Config_par_t" Collapsed="true">
+    <Position X="5.5" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\Communication\AdvCan.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CanStatusPar_t" Collapsed="true">
+    <Position X="13.5" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\Communication\AdvCan.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="pThreadFunc" Collapsed="true">
+    <Position X="61.75" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\Global\CBaseObject.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="width_t" Collapsed="true">
+    <Position X="56.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\Communication\CRC16.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="WEIGHT" Collapsed="true">
+    <Position X="54.75" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\ModeManager\Mode\LocalMode\Graph\Vertex.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PointID_t" Collapsed="true">
+    <Position X="60" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\Global\IDTypeDefinition.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SegmentID_t" Collapsed="true">
+    <Position X="47.75" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\Global\IDTypeDefinition.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="AgvID_t" Collapsed="true">
+    <Position X="47.75" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\Global\IDTypeDefinition.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TaskId_t" Collapsed="true">
+    <Position X="53" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\Global\IDTypeDefinition.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="pMsgFunc" Collapsed="true">
+    <Position X="58.25" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\MessageBus\CSubscriber.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="HsmEvent" Collapsed="true">
+    <Position X="53" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\ModeManager\Hsm.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="EventHandler" Collapsed="true">
+    <Position X="9.5" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\ModeManager\Hsm.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LIST_ROW" Collapsed="true">
+    <Position X="54.75" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interface\BaseControl\ListCtrlCl.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MENU_ITEM" Collapsed="true">
+    <Position X="22.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interface\SubPage\SubPage.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="FRAMEID" Collapsed="true">
+    <Position X="51.25" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\Communication\AgvMsgDef.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SocketBufferList" Collapsed="true">
+    <Position X="49.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\Communication\Socket\AsyncSocketServerImpl.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="layout::DegreeAngle" Collapsed="true">
+    <Position X="49.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\RouteManager\include\common\LayoutConst.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="layout::RadianAngle" Collapsed="true">
+    <Position X="63.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\RouteManager\include\common\LayoutConst.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPWSACOMPLETIONROUTINE" Collapsed="true">
+    <Position X="56.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\Communication\Socket\SOCKETHANDLE.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SocketList" Collapsed="true">
+    <Position X="51.25" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\Communication\Socket\SocketServerImpl.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="AgvMode_t" Collapsed="true">
+    <Position X="47.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAICAAQAAAAAAAAAAAAAACAAAAAIAAACg=</HashCode>
+      <FileName>AGV\Agv\AgvMode.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CMD_TYPE" Collapsed="true">
+    <Position X="56.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QgAAAAAAAAIIAAAAAAAAAAkAAAAAAAAAIAAAAAAAACA=</HashCode>
+      <FileName>AGV\Agv\CmdType.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="INSERTSYS_MODE" Collapsed="true">
+    <Position X="63.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>AGV\Agv\CmdType.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="OP_TYPE" Collapsed="true">
+    <Position X="56.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oYQAAACIAAAAAAAAgAAAAFACAAICQAAAQIAAIAAAAAA=</HashCode>
+      <FileName>AGV\Agv\OpDef.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RECV_STATE" Collapsed="true">
+    <Position X="53" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAgAAAAAA=</HashCode>
+      <FileName>AGV\Communication\SerialPort.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="OBSTACLEAREA" Collapsed="true">
+    <Position X="54.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\Devices\ObstacleAvoidance.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VoltageLevel" Collapsed="true">
+    <Position X="54.75" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\Driver\DriverDef.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SLAVE_START_PACKET" Collapsed="true">
+    <Position X="49.5" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAEIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\Driver\DriverDef.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MASTER_START_PACKET" Collapsed="true">
+    <Position X="49.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>AGV\Driver\DriverDef.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RPDO_W_ID" Collapsed="true">
+    <Position X="61.75" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>cAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\Driver\DriverDef.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TPDO_R_ID" Collapsed="true">
+    <Position X="49.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACABwAAAAAAAAA=</HashCode>
+      <FileName>AGV\Driver\DriverDef.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SDO_PACKET" Collapsed="true">
+    <Position X="63.5" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAkCAABCgAAAQAAABEAAAAAACAAAAAAIAAAE=</HashCode>
+      <FileName>AGV\Driver\DriverDef.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RPDO_R_INDEX" Collapsed="true">
+    <Position X="60" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>AGV\Driver\DriverDef.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TPDO_R_INDEX" Collapsed="true">
+    <Position X="51.25" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>AGV\Driver\DriverDef.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RPDO_COM_INDEX" Collapsed="true">
+    <Position X="56.5" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAABAAAAAAAAAAAQAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>AGV\Driver\DriverDef.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RPDO_MAP_INDEX" Collapsed="true">
+    <Position X="58.25" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAgAAAAAAAAQAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\Driver\DriverDef.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TPDO_COM_INDEX" Collapsed="true">
+    <Position X="63.5" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAQAABAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\Driver\DriverDef.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TPDO_MAP_INDEX" Collapsed="true">
+    <Position X="47.75" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAIAAAAgAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>AGV\Driver\DriverDef.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SUB_INDEX" Collapsed="true">
+    <Position X="56.5" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAMA8AAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\Driver\DriverDef.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SPD_POS_PARAMETER_INDEX" Collapsed="true">
+    <Position X="51.25" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAABAAAAAAAAAAAEABAAAAAAA=</HashCode>
+      <FileName>AGV\Driver\DriverDef.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ENABLE_FLAG" Collapsed="true">
+    <Position X="56.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\Driver\DriverDef.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MODE" Collapsed="true">
+    <Position X="51.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAEAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>AGV\Driver\DriverDef.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BATTERY_SYSTEM_MSG" Collapsed="true">
+    <Position X="51.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAIBAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>AGV\Driver\DriverDef.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EncodeMode" Collapsed="true">
+    <Position X="60" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>AGV\Global\DataFile.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VehicleType" Collapsed="true">
+    <Position X="53" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAACAAAAAAAAAAAAAAgAAAIAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>AGV\Global\GConstants.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PLCBITS_HOST" Collapsed="true">
+    <Position X="63.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAEAACAAAAAAAAAEECgAQAAAAIAAAAAAAAABAAA=</HashCode>
+      <FileName>AGV\Global\GConstants.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PLCBITS_LAYOUT" Collapsed="true">
+    <Position X="47.75" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQgAAAAAACAAgCAEAAAAIAAAAASAAgAAAAAAAAECAAA=</HashCode>
+      <FileName>AGV\Global\GConstants.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PLCBITS_CARRIER" Collapsed="true">
+    <Position X="61.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EADAAABIABAAACACABAAAAAACAAAAEgAAAgAAAAAAIA=</HashCode>
+      <FileName>AGV\Global\GConstants.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="STOWAGE_OP" Collapsed="true">
+    <Position X="54.75" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAEAAAAAACAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\Global\GConstants.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ENCCHANNEL" Collapsed="true">
+    <Position X="58.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAACCAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>AGV\Global\GConstants.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VoltageRange" Collapsed="true">
+    <Position X="56.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAACEIAQAAA=</HashCode>
+      <FileName>AGV\Global\GConstants.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DIBIT" Collapsed="true">
+    <Position X="60" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAEECAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\Global\GConstants.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DOBIT" Collapsed="true">
+    <Position X="63.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAACBAgABAEAAAAAAIAAAAAAEAAAAA=</HashCode>
+      <FileName>AGV\Global\GConstants.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PILOTLAMP" Collapsed="true">
+    <Position X="60" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>AGV\Global\GConstants.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="R2100_FRAME" Collapsed="true">
+    <Position X="51.25" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QCAAAAAAAAAAAAAAAAAgAAAAAAAAgAAEAAAAAAIAAgA=</HashCode>
+      <FileName>AGV\Global\GConstants.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SearchStrategy" Collapsed="true">
+    <Position X="47.75" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\ModeManager\Mode\LocalMode\Graph\GraphRoute.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="OPCODE" Collapsed="true">
+    <Position X="58.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAgAAAAEAAA=</HashCode>
+      <FileName>AGV\TaskManager\TaskInfo.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SYSMODE" Collapsed="true">
+    <Position X="60" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAACAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>AGV\Communication\AgvMsgDef.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MsgType" Collapsed="true">
+    <Position X="53" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAIAgAAACCAAAAAABBAYAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>AGV\Communication\AgvMsgDef.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FN_FUNCTION" Collapsed="true">
+    <Position X="61.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAACAAABAAAAAAAAAAAAABBAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\Communication\AgvMsgDef.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="COMSTATUS" Collapsed="true">
+    <Position X="58.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAwAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\Communication\CommunicationDefs.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="layout::SystemType" Collapsed="true">
+    <Position X="61.75" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAIAIAAAAAAAAAA=</HashCode>
+      <FileName>AGV\RouteManager\include\common\LayoutConst.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="layout::AgvObjType" Collapsed="true">
+    <Position X="49.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgOAAAABUAEIAACAAAgACAgAQAQIAAAUQAkAgAikIA=</HashCode>
+      <FileName>AGV\RouteManager\include\common\LayoutConst.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="layout::StationType" Collapsed="true">
+    <Position X="53" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAhAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\RouteManager\include\common\LayoutConst.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="layout::DriveMode" Collapsed="true">
+    <Position X="49.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAEAAAAAAABA=</HashCode>
+      <FileName>AGV\RouteManager\include\common\LayoutConst.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="layout::Direction" Collapsed="true">
+    <Position X="61.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\RouteManager\include\common\LayoutConst.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="layout::RotationDirection" Collapsed="true">
+    <Position X="54.75" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\RouteManager\include\common\LayoutConst.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="layout::SubSegmentType" Collapsed="true">
+    <Position X="58.25" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAEAAAAAAAAAAAAAEAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\RouteManager\include\common\LayoutConst.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="layout::LineType" Collapsed="true">
+    <Position X="47.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAABAAAAAAAAAAAAAAAAAgAAAQQAAAAA=</HashCode>
+      <FileName>AGV\RouteManager\include\common\LayoutConst.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="layout::QUADRANT" Collapsed="true">
+    <Position X="49.5" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAQAAAABAAAAABAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>AGV\RouteManager\include\common\LayoutConst.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="layout::BlockType" Collapsed="true">
+    <Position X="54.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>AGV\RouteManager\include\common\LayoutConst.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="layout::BlockMode" Collapsed="true">
+    <Position X="53" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>AGV\RouteManager\include\common\LayoutConst.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="layout::DrawType" Collapsed="true">
+    <Position X="47.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\RouteManager\include\LayoutDocument.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="yf::EEVENT_TYPE" Collapsed="true">
+    <Position X="53" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAACAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>AGV\Global\IEventReceiver.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="yf::ELOG_LEVEL" Collapsed="true">
+    <Position X="54.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgQDAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>AGV\Global\IEventReceiver.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="yf::ECOMM_TYPE" Collapsed="true">
+    <Position X="51.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAREIQAIAAKAAAAAAAAAAAAAgAABAIAIAAAAAhA=</HashCode>
+      <FileName>AGV\Global\IEventReceiver.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

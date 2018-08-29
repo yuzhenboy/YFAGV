@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "YeefungAgv", "YeefungAgv\YeefungAgv.vcproj", "{F7E6A88F-3CEC-45FE-8586-1D850729428A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AdvUNO2272G-NxAE (x86) = Debug|AdvUNO2272G-NxAE (x86)
+		Debug|SDK_N455_7 (x86) = Debug|SDK_N455_7 (x86)
+		Release|AdvUNO2272G-NxAE (x86) = Release|AdvUNO2272G-NxAE (x86)
+		Release|SDK_N455_7 (x86) = Release|SDK_N455_7 (x86)
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7E6A88F-3CEC-45FE-8586-1D850729428A}.Debug|AdvUNO2272G-NxAE (x86).ActiveCfg = Debug|AdvUNO2272G-NxAE (x86)
+		{F7E6A88F-3CEC-45FE-8586-1D850729428A}.Debug|AdvUNO2272G-NxAE (x86).Build.0 = Debug|AdvUNO2272G-NxAE (x86)
+		{F7E6A88F-3CEC-45FE-8586-1D850729428A}.Debug|AdvUNO2272G-NxAE (x86).Deploy.0 = Debug|AdvUNO2272G-NxAE (x86)
+		{F7E6A88F-3CEC-45FE-8586-1D850729428A}.Debug|SDK_N455_7 (x86).ActiveCfg = Debug|SDK_N455_7 (x86)
+		{F7E6A88F-3CEC-45FE-8586-1D850729428A}.Debug|SDK_N455_7 (x86).Build.0 = Debug|SDK_N455_7 (x86)
+		{F7E6A88F-3CEC-45FE-8586-1D850729428A}.Debug|SDK_N455_7 (x86).Deploy.0 = Debug|SDK_N455_7 (x86)
+		{F7E6A88F-3CEC-45FE-8586-1D850729428A}.Release|AdvUNO2272G-NxAE (x86).ActiveCfg = Release|AdvUNO2272G-NxAE (x86)
+		{F7E6A88F-3CEC-45FE-8586-1D850729428A}.Release|AdvUNO2272G-NxAE (x86).Build.0 = Release|AdvUNO2272G-NxAE (x86)
+		{F7E6A88F-3CEC-45FE-8586-1D850729428A}.Release|AdvUNO2272G-NxAE (x86).Deploy.0 = Release|AdvUNO2272G-NxAE (x86)
+		{F7E6A88F-3CEC-45FE-8586-1D850729428A}.Release|SDK_N455_7 (x86).ActiveCfg = Release|SDK_N455_7 (x86)
+		{F7E6A88F-3CEC-45FE-8586-1D850729428A}.Release|SDK_N455_7 (x86).Build.0 = Release|SDK_N455_7 (x86)
+		{F7E6A88F-3CEC-45FE-8586-1D850729428A}.Release|SDK_N455_7 (x86).Deploy.0 = Release|SDK_N455_7 (x86)
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
